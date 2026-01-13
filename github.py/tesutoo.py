@@ -1,2 +1,4 @@
 print ("hellow")
-pirnt("ko-hi-")
+print("ko-hi-")
+if hennsuu = 3
+  
