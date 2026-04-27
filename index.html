@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>はじめてのPython学習サイト</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1>はじめてのPython</h1>
+      <p>ゼロから学べる、やさしいPython学習サイト</p>
+      <a class="btn" href="#lessons">学習を始める</a>
+    </header>
+
+    <main>
+      <section id="about" class="card">
+        <h2>Pythonってなに？</h2>
+        <p>
+          Pythonは、読みやすく書きやすいプログラミング言語です。Web制作、AI、データ分析、自動化など幅広く使われています。
+        </p>
+      </section>
+
+      <section id="lessons" class="card">
+        <h2>学習ステップ</h2>
+        <ol>
+          <li>
+            <h3>STEP 1: 出力してみよう</h3>
+            <pre><code>print("こんにちは、Python！")</code></pre>
+          </li>
+          <li>
+            <h3>STEP 2: 変数を使ってみよう</h3>
+            <pre><code>name = "Taro"
+print("こんにちは、" + name)</code></pre>
+          </li>
+          <li>
+            <h3>STEP 3: 条件分岐を学ぼう</h3>
+            <pre><code>score = 80
+if score >= 70:
+    print("合格！")
+else:
+    print("もう少し！")</code></pre>
+          </li>
+        </ol>
+      </section>
+
+      <section id="quiz" class="card">
+        <h2>ミニクイズ</h2>
+        <p>Pythonで文字を表示する命令はどれ？</p>
+        <div class="quiz-buttons">
+          <button data-answer="no">echo()</button>
+          <button data-answer="yes">print()</button>
+          <button data-answer="no">show()</button>
+        </div>
+        <p id="result" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 はじめてのPython学習サイト</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
